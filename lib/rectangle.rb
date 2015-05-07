@@ -4,6 +4,6 @@ class Rectangle
     @width = width
   end
   define_method(:square?) do
-    false
+      @length.==(@width)
   end
 end
